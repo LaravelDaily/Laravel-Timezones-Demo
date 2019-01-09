@@ -47,7 +47,11 @@ class RegisterController extends Controller
      */
     public function showRegistrationForm()
     {
-        $timezone_select = Timezone::selectForm('Europe/London', '', ['class' => 'form-control', 'name' => 'timezone']);
+        $timezone_select = Timezone::selectForm(
+            'Europe/London',
+            '',
+            ['class' => 'form-control', 'name' => 'timezone']
+        );
         return view('auth.register', compact('timezone_select'));
     }
 

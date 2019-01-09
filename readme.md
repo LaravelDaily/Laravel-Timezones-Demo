@@ -8,7 +8,9 @@ The goal is that every uses sees the data (in this example, event start time) in
 
 ![Laravel Timezones example 2](https://laraveldaily.com/wp-content/uploads/2019/01/laravel-timezones-2.png)
 
-For timezones list, used this package: [camroncade/timezone](https://github.com/camroncade/timezone)
+For timezones list and conversions, used this package: [camroncade/timezone](https://github.com/camroncade/timezone)
+
+Project is partly generated with our [QuickAdminPanel generator](https://quickadminpanel.com).
 
 ---
 
